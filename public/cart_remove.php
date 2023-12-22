@@ -1,9 +1,9 @@
 <?php
     require 'connection.php';
     session_start();
-    $item_id=$_GET['id'];
-    $user_id=$_SESSION['id'];
-    $delete_query="delete from users_items where user_id='$user_id' and item_id='$item_id'";
-    $delete_query_result=mysqli_query($con,$delete_query) or die(mysqli_error($con));
+    $itemCode=$_GET['itemCode'];
+    $userId=$_SESSION['userId'];
+    $delete_query="delete from users_products where userId='$userId' and itemCode='$itemCode'";
+    $delete_query_result==$connection->prepare("SELECT * FROM users_products WHERE itemCode=?");
     header('location: cart.php');
 ?>
