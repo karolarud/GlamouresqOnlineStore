@@ -1,0 +1,109 @@
+nav
+{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+	
+}
+
+nav ul li a 
+{
+color: black;
+display: block;
+text-align: center; 
+padding: 0.5rem;
+text-decoration: none;
+background-color: #f0f0f0; 
+border-top: 1px solid;
+border-left: 1px solid;
+
+}
+
+nav ul li a:hover
+{ 
+background-color:gray; 
+text-decoration: underline;
+color: #edd6dd;
+font-weight:bold;
+
+}
+
+nav ul
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+nav ul li
+{
+
+margin: 0.3em;
+margin-bottom: 0.3em;
+
+}
+
+nav a.current_page 
+{
+color: black;
+background-color: #edd6dd;
+font-weight:bold;
+text-decoration: underline;
+}
+
+
+
+nav ul ul 
+{
+    display: none;
+    position: absolute;
+    top: 40px;
+	left: 170px;
+	padding: 0;
+	margin: 0;
+	min-width: 140px;
+	
+}
+
+/* Display Dropdown on Hover */
+nav ul li:hover > ul 
+{
+    display: inherit;
+}
+/* First Tier Dropdown */
+nav ul ul li
+{
+    display: block;
+    position: relative;
+    width: 170px;
+    float: none;
+	flex: 1 0 10em;
+	margin: 0.2em;
+}
+
+.logo-img
+{
+    float: left;
+    position: relative;
+    margin:1em 8em;
+	background-color: #f0f0f0;
+	overflow: inherit;
+	   
+	
+}
+.bg-div{
+ 
+   overflow: hidden;
+}
+ 
+
+.relative {
+  position: absolute;
+  top: 80px;
+  right: 200px;
+  
+}

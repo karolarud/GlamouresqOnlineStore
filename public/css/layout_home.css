@@ -1,0 +1,75 @@
+/*layout - home*/
+
+#container
+{
+	width:100%;
+}
+/* create  the 2 column layout and float the elements */
+
+#container main
+{
+	float:left;
+	width:45%;
+	padding: 2em 1em 8em 8em;
+}
+#container main p
+ {
+	 height: 124px;
+	 text-align: center;
+	 font-size: 22px;
+	 padding-top:40px;
+	 border-left: 1px solid gray;
+	
+ }
+ 
+#container aside
+{
+	float:right;
+	width:55%;
+	padding: 2em 8em 8em 1em;
+	
+}
+ 
+#container aside img 
+{
+  width: 696px;
+  height: 744px;
+  
+}
+
+p.top
+ {
+	 border-top: 2px groove gray;
+ }
+
+p.wish
+{
+	line-height: 124px;
+    height: 124px;
+	font-weight: bolder;
+	font-style: italic;
+}
+span.box
+{
+	display: inline-block;   
+    text-align: center;
+	font-size: 80%;
+	margin-bottom: 5px;
+	padding:  7px ;
+    text-decoration: none;
+    background-color: #f0f0f0; 
+    border: 1px solid gray;
+	color: gray;
+}	
+
+span.box:hover 
+	
+{
+    background-color:  gray; 
+	text-decoration: underline;
+	color: #edd6dd;
+	font-weight:bold;
+}
+
+	
+

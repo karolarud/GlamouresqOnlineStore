@@ -1,0 +1,16 @@
+html
+{
+   box-sizing:border-box;
+}
+*
+{
+    box-sizing:border-box;
+    box-sizing:inherit;	
+}
+body
+{
+    font-family: Trebuchet MS;
+	FONT-SIZE: 100%;
+	background-color:white;
+	
+}

@@ -1,0 +1,44 @@
+/* layout - contact*/
+
+
+/* create  the 2 column layout and float the elements */
+
+#container main
+{
+	float:left;
+	width:40%;
+	background-color: #f0f0f0;
+	margin: 2em 0 6em 8em;
+	text-align: center;
+	
+}
+
+ 
+#container aside
+{
+	float:right;
+	width:42%;
+	margin-top: 2em;
+	margin-bottom: 6em;
+	margin-right: 8em;
+	text-align: center;
+   
+}
+
+.email
+{
+	text-decoration: none;
+	color: black;
+}
+
+.email:hover
+{
+	background-color: gray;
+}
+
+.search
+{
+	width: 12em;  
+	height: 2.1em;
+	font-size: 19px;
+}
