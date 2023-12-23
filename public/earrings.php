@@ -49,7 +49,8 @@ $productsCount = count($products);
                         &euro; <?php echo $row['price']; ?>
                     </p>
                 </blockquote>
-                <p><a class="btn btn-primary btn-lg">Buy now &raquo;</a></p>
+    <p><a class="btn btn-primary btn-lg" href="cart_add.php?id=<?echo escape($row["itemCode"]); ?>Add to cart &raquo;</a></p>
+
             </div>
                 <?php } ?>
 
